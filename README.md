@@ -39,6 +39,19 @@ Events Hub: como e por quê uma Perspectiva Orientada a Eventos pode ajudar muit
 ```
 https://br.sensedia.com/post/events-hub-how-and-why-an-event-driven-perspective-can-greatly-help-your-company
 ```
+#### DLQ (Dead Letter Queue)
+
+As filas de mensagens mortas são úteis para depurar sua aplicação ou sistema de mensagens, pois permitem que você isole mensagens não consumidas para determinar por que seu processamento não obteve êxito. Por exemplo, se um usuário fizer um pedido na web com um ID de produto específico, mas esse ID do produto for excluído, o código da loja da web falhará e exibirá um erro. Além disso, a mensagem com a solicitação do pedido poderá ser enviada para uma dead-letter queue.
+
+DLQ + Kafka - Artigo da Uber Engineering
+```
+https://imasters.com.br/desenvolvimento/construindo-reprocessamento-confiavel-e-dead-letter-queues-com-kafka
+```
+Lambda + DLQ (Exemplo da AWS, porém é possível em qualquer Cloud)
+```
+https://aws.amazon.com/pt/blogs/compute/robust-serverless-application-design-with-aws-lambda-dlq/#:~:text=Robust%20Serverless%20Application%20Design%20with%20AWS%20Lambda%20Dead%20Letter%20Queues,-by%20Bryan%20Liston&text=AWS%20Lambda%20is%20a%20serverless,handle%20exceptions%20and%20failures%20gracefully.
+```
+
 
 ### Microsserviço
 
