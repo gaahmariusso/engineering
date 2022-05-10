@@ -51,7 +51,26 @@ Lambda + DLQ (Exemplo da AWS, porém é possível em qualquer Cloud)
 ```
 https://aws.amazon.com/pt/blogs/compute/robust-serverless-application-design-with-aws-lambda-dlq/#:~:text=Robust%20Serverless%20Application%20Design%20with%20AWS%20Lambda%20Dead%20Letter%20Queues,-by%20Bryan%20Liston&text=AWS%20Lambda%20is%20a%20serverless,handle%20exceptions%20and%20failures%20gracefully.
 ```
+#### Orquestração vs. Coreografia de serviços
 
+A orquestração de serviço representa um único processo de negócios executável centralizado (o orquestrador) que coordena a interação entre diferentes serviços. O orquestrador é responsável por invocar e combinar os serviços.
+O relacionamento entre todos os serviços participantes é descrito por um único terminal (ou seja, o serviço composto). A orquestração inclui o gerenciamento de transações entre serviços individuais. A orquestração emprega uma abordagem centralizada para a composição do serviço.
+
+Coreografia de serviço é uma descrição global dos serviços participantes, definida pela troca de mensagens, regras de interação e acordos entre dois ou mais pontos de extremidade. A coreografia emprega uma abordagem descentralizada para a composição do serviço.
+A coreografia descreve as interações entre vários serviços, onde a orquestração representa o controle da perspectiva de uma parte. Isso significa que uma coreografia difere de uma orquestração com relação a onde a lógica que controla as interações entre os serviços envolvidos deve residir.
+
+| Orquestração de serviço | Coreografia de serviço |
+| --- | --- |
+| ![image](https://user-images.githubusercontent.com/22088545/167660064-25da6f9c-3767-4d62-b6b5-a1acb51d1772.png)s | ![image](https://user-images.githubusercontent.com/22088545/167660145-2402c710-37b9-4c1e-b44e-b032ff4ef5bf.png) |
+
+Orquestração vs. Coreografia de serviços
+```
+https://www.grupomult.com.br/orquestracao-vs-coreografia-de-servicos/
+```
+Entendendo Event Driven
+```
+https://br.sensedia.com/post/understanding-event-driven-standards
+```
 
 ### Microsserviço
 
