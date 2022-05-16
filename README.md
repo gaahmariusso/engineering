@@ -74,8 +74,18 @@ https://br.sensedia.com/post/understanding-event-driven-standards
 
 ### Microsserviço
 
+This is how a monolith would look like. One application for everything.
+![image](https://user-images.githubusercontent.com/22088545/168696771-61fe4e06-a226-41ec-95a4-5e8fdc2dd10b.png)
+
+This is how the same application would look like when developed using Microservices Architecture.
+![image](https://user-images.githubusercontent.com/22088545/168696786-f336ba30-8791-4315-9fa2-f49708686436.png)
+
+Microservice Architectures involve a number of small, well designed, components interacting with messages. 
+![image](https://user-images.githubusercontent.com/22088545/168696796-3ffe1431-031b-483e-bcdd-2a2be026e61a.png)
+
+Introdução a Microsserviços
 ```
-Microsserviço
+https://medium.com/introducao-a-arquitetura-de-microservicos/introdu%C3%A7%C3%A3o-a-microsservi%C3%A7os-25378269e6f9
 ```
 
 ### Domain Driven Design
