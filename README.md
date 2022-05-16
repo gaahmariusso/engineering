@@ -1,13 +1,6 @@
-# Engineering
+# 📋 Conceitos essenciais para um bom Engenheiro
 
-Repositório criado com o objetivo de compartilhar conhecimentos e estudos relacionados à Engenharia como um todo.
-
-# 🚀 Start
-
-Espero que você embarque nesta nave, e faça bom uso dos conceitos abordados abaixo. São assuntos técnicos para aplicações modernas. Bora decolar !!
-
-# 📋 Conceitos para um bom Engenheiro
-
+Repositório criado com o objetivo de compartilhar conhecimentos e estudos relacionados à Engenharia de software como um todo. Espero que absorva novos conhecimentos, e faça bom uso dos conceitos abordados abaixo. São assuntos técnicos para aplicações modernas. Bora lá !!
 
 ## 12 Fatores
 
