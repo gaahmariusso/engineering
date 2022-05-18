@@ -79,17 +79,31 @@ https://br.sensedia.com/post/understanding-event-driven-standards
 
 Desenvolver um único aplicativo como um conjunto de pequenos serviços, cada um executando em seu próprio processo e se comunicando com mecanismos leves, geralmente uma API de recursos HTTP. Esses serviços são construídos em torno dos recursos de negócios e implantados de forma independente por máquinas de implantação totalmente automatizadas. Há um mínimo de gerenciamento centralizado desses serviços, que podem ser escritos em diferentes linguagens de programação e usar diferentes tecnologias de armazenamento de dados.
 
-É assim que um monólito se pareceria. Um aplicativo para tudo.
+É assim que um monólito se pareceria. Um aplicativo para tudo:
 
 ![image](https://user-images.githubusercontent.com/22088545/168696771-61fe4e06-a226-41ec-95a4-5e8fdc2dd10b.png)
 
-É assim que o mesmo aplicativo ficaria quando desenvolvido usando a Arquitetura de Microsserviços.
+É assim que o mesmo aplicativo ficaria quando desenvolvido usando a Arquitetura de Microsserviços:
 
 ![image](https://user-images.githubusercontent.com/22088545/168696786-f336ba30-8791-4315-9fa2-f49708686436.png)
 
-As arquiteturas de microsserviços envolvem vários componentes pequenos e bem projetados interagindo com as mensagens.
+As arquiteturas de microsserviços envolvem vários componentes pequenos e bem projetados interagindo com as mensagens:
 
 ![image](https://user-images.githubusercontent.com/22088545/168696796-3ffe1431-031b-483e-bcdd-2a2be026e61a.png)
+
+<br>
+
+|  | Monolito | Microsserviço |
+| --- | --- | --- |
+| Vantagens | Mais simples de desenvolver | Altamente testável e manutenível
+| | Simples de testar | Independência e agilidade
+| | Simples de fazer o deploy para o servidor | Objetividade
+| | Simples de escalar | Flexibilidade
+| Desvantagens | Manutenção | Quando a arquitetura do sistema é feita, a divisão dos serviços tem que ser feita com muita atenção e cuidado
+| | Alterações / Linha de código | Há replicação de código de resposta ou de infraestrutura
+| | Linguagens de programação | Complexidade no gerenciamento da aplicação
+
+<br>
 
 Saiba mais 💡
 
@@ -104,9 +118,18 @@ https://www.zappts.com/blog/arquitetura-monolitica-e-microsservicos/
 
 ## Domain Driven Design
 
-```
-Domain Driven Design
-```
+Domain Driven Design significa Projeto Orientado a Domínio. Podemos dizer que são padrões, um padrão é uma regra de três partes que expressa a relação entre um contexto (1), um problema (2) e uma solução (3).
+
+Saiba mais 💡
+
+DDD – Introdução a Domain Driven Design:
+
+http://www.agileandart.com/2010/07/16/ddd-introducao-a-domain-driven-design/
+
+Implementando o Domain-Driven Design para Arquitetura de Microsserviços:
+
+https://medium.com/design-and-tech-co/implementing-domain-driven-design-for-microservice-architecture-26eb0333d72e
+
 
 ## S.O.L.I.D
 
