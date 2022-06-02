@@ -131,6 +131,23 @@ Implementando o Domain-Driven Design para Arquitetura de Microsserviços:
 https://medium.com/design-and-tech-co/implementing-domain-driven-design-for-microservice-architecture-26eb0333d72e
 
 
+### Anti-Corruption Layer (ACL)
+
+Em algum momento em nossa jornada nos deparamos com sistemas legados, e os mesmos possuem integração com os seus substitutos. Isso vai contra o design limpo, e com certeza gerará problemas em curto ou longo prazo. Os sistemas legados sofrem com protocolos, modelos de dados, schemas e/ou APIs obsoletos desatualizados. Para interagir com sistemas legados, novos aplicativos de pipeline podem precisar oferecer suporte a recursos legados que não se alinham às técnicas arquitetônicas modernas. É aí que entra o ACL, ele fará essa integração entre esses dois sistemas. Ele traduz solicitações entre o sistema legado e o novo, de modo que não há necessidade de mexer nas partes internas do novo sistema de maneira que possam prejudicar seu design mais recente ou causar problemas inesperados. Segue abaixo uma imagem para exemplificar o que foi dito acima:
+
+![image](https://user-images.githubusercontent.com/22088545/171747692-9b72dd91-4a01-421f-84d8-24e886afa7fa.png)
+
+Saiba mais 💡
+
+Doc da Microsoft:
+
+https://docs.microsoft.com/pt-br/azure/architecture/patterns/anti-corruption-layer
+
+Anti-Corruption Layer: How to Keep Legacy Support from Breaking New Systems:
+
+https://www.cloudbees.com/blog/anti-corruption-layer-how-keep-legacy-support-breaking-new-systems
+
+
 ## S.O.L.I.D
 
 ```
