@@ -150,9 +150,23 @@ https://www.cloudbees.com/blog/anti-corruption-layer-how-keep-legacy-support-bre
 
 ## S.O.L.I.D
 
-```
-Solid
-```
+Basicamente o intuito do S.O.L.I.D são: construção de códigos mais limpos, separar responsabilidades, diminuir acoplamento, facilitar a refatoração e estimular o reaproveitamento do código. Segue abaixo o significado de cada letra, porém, como o conteúdo é bem extenso, aconselho fortemente à ler o artigo e assistir o vídeo que estão no Saiba mais.
+
+S — Single Responsiblity Principle (Princípio da responsabilidade única)
+O — Open-Closed Principle (Princípio Aberto-Fechado)
+L — Liskov Substitution Principle (Princípio da substituição de Liskov)
+I — Interface Segregation Principle (Princípio da Segregação da Interface)
+D — Dependency Inversion Principle (Princípio da inversão da dependência)
+
+Saiba mais 💡
+
+O que é SOLID:
+
+https://medium.com/desenvolvendo-com-paixao/o-que-%C3%A9-solid-o-guia-completo-para-voc%C3%AA-entender-os-5-princ%C3%ADpios-da-poo-2b937b3fc530
+
+SOLID fica FÁCIL com Essas Ilustrações:
+
+https://www.youtube.com/watch?v=6SfrO3D4dHM
 
 ## Clean Arquitecture
 
