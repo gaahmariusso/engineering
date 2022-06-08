@@ -152,11 +152,11 @@ https://www.cloudbees.com/blog/anti-corruption-layer-how-keep-legacy-support-bre
 
 Basicamente o intuito do S.O.L.I.D são: construção de códigos mais limpos, separar responsabilidades, diminuir acoplamento, facilitar a refatoração e estimular o reaproveitamento do código. Segue abaixo o significado de cada letra, porém, como o conteúdo é bem extenso, aconselho fortemente à ler o artigo e assistir o vídeo que estão no Saiba mais.
 
-S — Single Responsiblity Principle (Princípio da responsabilidade única)
-O — Open-Closed Principle (Princípio Aberto-Fechado)
-L — Liskov Substitution Principle (Princípio da substituição de Liskov)
-I — Interface Segregation Principle (Princípio da Segregação da Interface)
-D — Dependency Inversion Principle (Princípio da inversão da dependência)
+- S — Single Responsiblity Principle (Princípio da responsabilidade única)
+- O — Open-Closed Principle (Princípio Aberto-Fechado)
+- L — Liskov Substitution Principle (Princípio da substituição de Liskov)
+- I — Interface Segregation Principle (Princípio da Segregação da Interface)
+- D — Dependency Inversion Principle (Princípio da inversão da dependência)
 
 Saiba mais 💡
 
