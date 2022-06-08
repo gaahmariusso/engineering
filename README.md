@@ -171,7 +171,7 @@ https://www.youtube.com/watch?v=6SfrO3D4dHM
 
 ## Clean Arquitecture
 
-A arquitetura limpa tem como principais finalidades ser independente de frameworks, facilmente testável, independentemente da interface do usuário. Resumindo, é um tipo de arquitetura de software amplamente independente.
+A arquitetura limpa tem como principais finalidades ser independente de: frameworks, interface do usuário, banco de dados, agentes externos; e por final, ser facilmente testável. Resumindo, é um tipo de arquitetura de software amplamente independente.
 
 ![image](https://user-images.githubusercontent.com/22088545/172696015-d1000d74-4736-4146-bba0-212a64a6feec.png)
 
