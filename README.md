@@ -168,11 +168,29 @@ SOLID fica FÁCIL com Essas Ilustrações:
 
 https://www.youtube.com/watch?v=6SfrO3D4dHM
 
+
 ## Clean Arquitecture
 
-```
-Clean Arquitecture
-```
+A arquitetura limpa tem como principais finalidades ser independente de frameworks, facilmente testável, independentemente da interface do usuário. Resumindo, é um tipo de arquitetura de software amplamente independente.
+
+![image](https://user-images.githubusercontent.com/22088545/172696015-d1000d74-4736-4146-bba0-212a64a6feec.png)
+
+Na imagem acima, temos o desenho de como a Clean Architecture funciona. Note que as setas horizontais da imagem que representam as dependências entre as camadas vêm de “fora para dentro”, ou seja, a camada Framework “enxerga” somente a Interface Adapters, que por sua vez “enxerga” somente a User Cases, que finalmente “enxerga” apenas a Entites. Esta é a principal regra da Clean Architecture, e talvez sua única: o Princípio da Dependência.
+
+As camadas internas não devem ter qualquer dependência das externas, nem indiretas, como nomes de variáveis, funções ou termos.
+
+Provavelmente você terá mais abstrações nas camadas internas e mais implementações nas externas, utilizando injeção de dependência para fazer tudo funcionar.
+
+Saiba mais 💡
+
+Clean Architecture e suas premissas:
+
+https://renicius-pagotto.medium.com/clean-architecture-e-suas-premissas-6beb933c72b1
+
+O uso da Clean Architecture: Uma abordagem modular:
+
+https://medium.com/@lopesvinicius1707/o-uso-da-clean-architeture-uma-abordagem-modular-b0905b59ab74
+
 
 ## Hexagonal / Ports-and-Adapters
 
