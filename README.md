@@ -192,11 +192,42 @@ O uso da Clean Architecture: Uma abordagem modular:
 https://medium.com/@lopesvinicius1707/o-uso-da-clean-architeture-uma-abordagem-modular-b0905b59ab74
 
 
-## Hexagonal / Ports-and-Adapters
+## Hexagonal Architecture (Port and Adapters)
 
-```
-Hexagonal / Ports-and-Adapters
-```
+Ports and Adapters ou também conhecido como Hexagonal Architecture, é uma arquitetura popular inventada por Alistair Cockburn em 2005.
+É uma forma de organizar o código em camadas, cada qual com a sua responsabilidade, tendo como objetivo isolar totalmente a lógica da aplicação do mundo externo. Este isolamento é feito por meio de Portas e Adaptadores (daí o nome Ports and Adapters), onde as Portas são as interfaces que as camadas de baixo nível expõe, e Adaptadores as implementações para as interfaces em questão.
+
+![image](https://user-images.githubusercontent.com/22088545/173692263-3b352bc0-c413-4d49-9a3b-744649d2578c.png)
+
+Na figura acima é possível visualizar a lógica de negócio (Domínio) isolado de fatores externos, como bibliotecas de notificação por SMS e E-mail, banco de dados e ferramenta de busca, e utilizando diferentes formas de entrada de dados, como API (HTTP) e comandos de console (CLI). A forma como o domínio é acessado se dá por meio de Portas e Adaptadores.
+
+| Adaptadores primários | Adaptadores secundários |
+| --- | --- |
+| ![image](https://user-images.githubusercontent.com/22088545/173692724-92109376-00d6-4618-ba68-6a6993727d70.png) | ![image](https://user-images.githubusercontent.com/22088545/173692734-763af0f3-975d-47bf-a33e-3177dd7ea3ba.png) |
+| Os adaptadores primários ou de condução representam a interface do usuário. Isso pode ser nossos controladores de API, controladores da Web e visualizações. Eles são chamados de adaptadores de acionamento porque dirigem o aplicativo e iniciam ações no aplicativo principal. Esses adaptadores podem usar as portas de entrada (interfaces) fornecidas pelo aplicativo principal. Os controladores, então, dependem dessas interfaces da lógica de negócios principal. | Os adaptadores secundários ou orientados representam a conexão com seus bancos de dados de back-end, bibliotecas externas, APIs de correio, etc. Esses adaptadores reagem às ações iniciadas pelos adaptadores primários. Os adaptadores secundários são implementações da porta de saída. Que por sua vez dependem de interfaces dessas bibliotecas externas e ferramentas para transformá-las, de modo que o aplicativo principal possa utilizá-las sem estar acoplado a elas.
+
+| Conclusão |
+| --- |
+| ![image](https://user-images.githubusercontent.com/22088545/173692743-9dc90428-8e3d-4509-873f-82e888ed0e6b.png) |
+| O objetivo de Portas e Adaptadores é isolar a lógica de negócios da mecânica de entrega e ferramentas usadas pelo sistema. Para isso usamos Interfaces. Todas as dependências estão na direção do aplicativo principal. O núcleo em si não depende de nada. |
+
+Criamos adaptadores no lado da interface do usuário de nosso aplicativo para usar nossas interfaces de aplicativos. E no lado da infraestrutura criamos adaptadores que implementam as interfaces de nossa aplicação.
+Temos então um sistema completamente isolado de mudanças externas e de qualquer framework que você use. Claro que na realidade não será tão fácil mudar de framework, mas pelo menos não ficamos totalmente dependentes disso.
+
+**Quando utilizar**
+
+Qualquer aplicação pode ser arquitetada como hexagonal, porém devemos nos atentar se nossa aplicação está realmente precisando, se é factível tal migração ou implementação, nem sempre a melhor solução seja a adequada para determinados cenários. Arquitetura hexagonal traz bastante benefícios, em aplicações grandes com a divisão em camadas, em aplicações muito complexas com o encapsulamento da lógica, em aplicações com muita integração com a utilização de interfaces e serviços, tudo isso garante um aumento considerável na facilidade de manutenção e escalabilidade.
+
+**Quando não utilizar**
+
+A arquitetura hexagonal possui inúmeras vantagens, porém não são em todos os casos que realmente valerá a pena sua utilização.
+Em sistemas muito pequenos ou que dificilmente irá gerar trabalho de manutenção/novas features talvez não seja tão interessante o custo-benefício de sua implementação, já que demanda um alto grau de esforço de desenvolvimento.
+Como em todos os casos no nosso cotidiano, deve ser feita uma análise de viabilidade, já que podem haver formas mais eficazes de resolver o mesmo problema.
+
+Saiba mais 💡
+
+Arquitetura Hexagonal:
+https://medium.com/dev-cave/arquitetura-hexagonal-4668a8ffac57
 
 ## Cloud Computing
 
