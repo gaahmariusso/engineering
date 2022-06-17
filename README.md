@@ -235,24 +235,31 @@ https://medium.com/dev-cave/arquitetura-hexagonal-4668a8ffac57
 Computação na nuvem, tem como principal objetivo a redução de custo de sua infraestrutura, mas oferece também muitos outros benefícios, como a flexibilização da estrutura, otimização de processos etc. Trago abaixo 7 itens que exemplificam as vantagens de se ter sua infraestrutura em Cloud Computing.
 
 1. Elasticidade e escalabilidade
+
 Na nuvem, a elasticidade significa a capacidade de um sistema em adicionar ou remover recursos de maneira autônoma. Podemos dizer que a elasticidade é a capacidade de escalar recursos tanto horizontalmente quanto verticalmente. Outra característica importante é que toda e qualquer alteração é feita em tempo real, de modo a não interferir no fluxo de trabalho.
 
 2. Otimização de processos de TI
+
 Imagine em um data center físico, qual o impacto de uma alteração como aumentar o número de processadores em uma máquina? Provavelmente seria preciso alocar recursos para trabalhar no final de semana, parar a máquina etc. Isso gera inúmeros transtornos ao negócio, além do gasto com horas extras dos colaboradores. Ao utilizar cloud computing, essa atividade pode ser feita em pouco tempo e sem nenhum impacto ao usuário. Dessa maneira, os colaboradores de TI podem ser alocados em outras atividades.
 
 3. Provisionamento automático de recursos
+
 É possível alocar recursos de processamento sob demanda. Isso quer dizer que, conforme a necessidade da aplicação durante o uso, o sistema redimensiona recursos automaticamente. Outra forma em que o provisionamento automático de recursos pode ser usado é na configuração de ambientes para instalação de softwares. Um exemplo é o preparo de uma área de desenvolvimento web em que seja preciso instalar servidor web, de aplicação e base de dados.
 
 4. Monitoramento
+
 Controlar o ambiente é extremamente importante, já que informações relevantes podem ser obtidas por meio da análise e controle das atividades de hardwares e softwares. Por isso, é fundamental definir métricas de monitoramento para os serviços. Assim, é possível acompanhar o consumo de todos os recursos e tomar decisões estratégicas de modo a antecipar eventuais problemas.
 
 5. Conectividade e Alta disponibilidade
+
 Poder acessar o ambiente a qualquer momento e de qualquer lugar proporciona um enorme benefício para a empresa, já que atualmente as pessoas trabalham em horários e lugares variados. Muitas empresas têm negócios 24/7 e precisam que o ambiente esteja disponível o tempo todo. Contudo, manter a alta disponibilidade em um data center físico requer um alto investimento. Isso porque alta disponibilidade significa manter redundância de todos os recursos de um data center. Por isso, a alternativa de manter o ambiente na nuvem é bem atrativa, já que ao contratar o serviço é possível escolher opções de alta disponibilidade, que contemplam o armazenamento em diferentes localidades.
 
 6. Controle de acesso de usuários
+
 Outra ferramenta muito importante para a segurança é o controle de acesso de usuários. Isso porque, por meio desse controle, é possível criar usuários com permissões adequadas ao tipo de tarefa que ele irá executar no ambiente.
 
 7. Criptografia
+
 Quando houver transferência de dados entre servidores, eles devem trafegar via SSL (Secure Sockets Layer). Isso porque esse protocolo garante a segurança na sua transmissão. Já os dados armazenados em nuvem utilizam padrões avançados de criptografia.
 
 Saiba mais 💡
@@ -267,7 +274,7 @@ SaaS
 https://www.youtube.com/watch?v=4Hw3FApvvhE
 
 
-## Clean Arquitecture
+## Observability
 
 Saiba mais 💡
 
