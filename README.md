@@ -278,7 +278,7 @@ https://www.youtube.com/watch?v=4Hw3FApvvhE
 
 Quando falamos neste tema, é importante termos claro quais são os 3 Pilares da Observabilidade.
 
-<img src="https://user-images.githubusercontent.com/22088545/174402427-b7179c2d-53be-4ae1-8f59-e50f53337a29.png" width="400" height="400" />
+<img src="https://user-images.githubusercontent.com/22088545/174402427-b7179c2d-53be-4ae1-8f59-e50f53337a29.png" width="450" height="400" />
 
 1. Logs
 
