@@ -229,6 +229,19 @@ Saiba mais 💡
 Arquitetura Hexagonal:
 https://medium.com/dev-cave/arquitetura-hexagonal-4668a8ffac57
 
+## Refatoring and Design Pattern
+
+A refatoração é uma forma disciplinada de reestruturar o código quando pequenas mudanças são feitas nele para melhorar o design. Um aspecto importante de uma refatoração é que ela melhora o design sem mudar o comportamento do design; uma refatoração não adiciona nem remove funcionalidade.
+Design Patterns ou padrões de projetos são soluções generalistas para problemas recorrentes durante o desenvolvimento de um software. Não se trata de um framework ou um código pronto, mas de uma definição de alto nível de como um problema comum pode ser solucionado.
+
+Saiba mais 💡
+
+Refatoração:
+https://refactoring.guru/pt-br/refactoring
+
+Design Pattern:
+https://refactoring.guru/design-patterns
+
 
 ## Cloud Computing
 
